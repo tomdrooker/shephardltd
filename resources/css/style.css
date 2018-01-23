@@ -51,12 +51,32 @@ nav a:visited {
 
 /* Header styles */
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.header-carousel {
+
+}
+
+.first-header {
+
   background-image: url("../images/test-header-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 33rem;
+  color: white;
+}
+
+.second-header {
+  background-image: url("../images/bathroom-stock-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 33rem;
+  color: white;
+}
+
+.third-header {
+
+  background-image: url("../images/shower-stock.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -181,7 +201,7 @@ figcaption .bold {
 
 #services {
   padding-top: 1.5rem;
-  height: 35rem;
+  height: auto;
 }
 
 .services-header h2 {
@@ -227,11 +247,28 @@ figcaption .bold {
 .services-link {
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 2rem;
 }
 
 .services-link a {
   margin: 1.5rem 1rem 0 0;
   font-size: 1.5rem;
+}
+
+/*Our work carousel*/
+
+#our-work {
+  height: auto;
+}
+
+#our-work h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  padding: 0 0 2rem 1rem;
+}
+
+.our-work-carousel img {
+  margin: 0 auto;
 }
 
 
