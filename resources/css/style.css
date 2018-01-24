@@ -115,6 +115,7 @@ header p {
   width: 20%;
   margin: 0 auto;
   text-align: center;
+  color: white;
 }
 
 .header-button:hover {
