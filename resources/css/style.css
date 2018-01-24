@@ -51,45 +51,39 @@ nav a:visited {
 
 /* Header styles */
 
-.header-carousel {
-
-}
-
-.first-header {
-
-  background-image: url("../images/test-header-image.jpg");
+.header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 33rem;
   color: white;
+}
+
+.first-header {
+  background-image: url("../images/test-header-image.jpg");
 }
 
 .second-header {
   background-image: url("../images/bathroom-stock-4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 33rem;
-  color: white;
 }
 
 .third-header {
-
   background-image: url("../images/shower-stock.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 33rem;
-  color: white;
+}
+
+.header-content {
+  margin-top: 5rem;
 }
 
 .header-content-header {
   width: 30rem;
+  margin: 0 auto;
 }
 
 .header-content-main {
   width: 38rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
 header h1 {
@@ -113,6 +107,9 @@ header p {
   margin-right: 4rem;
   text-transform: uppercase;
   transition: background-color 400ms ease-in, color 200ms ease-in;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .header-button:hover {
@@ -124,9 +121,14 @@ header p {
   color: black;
 }
 
+.header-button a:hover {
+  color: black;
+}
+
 .header-button a:link {
   color: white;
   text-decoration: none;
+  color: black;
 }
 
 .header-button a:visited {
@@ -136,7 +138,7 @@ header p {
 /* Subsection styles */
 
 #subsection {
-  height: 30rem;
+  height: auto;
   padding-top: 1rem;
   background-color: #f2f2f2;
   display: flex;
@@ -271,6 +273,22 @@ figcaption .bold {
   margin: 0 auto;
 }
 
+/* Testimonials styles */
+
+#testimonials h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  padding: 3rem 0 2rem 1rem;
+}
+
+#testimonials img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
 
 /* Footer styles */
 
