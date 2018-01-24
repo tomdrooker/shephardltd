@@ -19,6 +19,11 @@ html {
   top: 8rem;
 }
 
+#page-contaier {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /* Nav styles */
 
 nav {
@@ -257,16 +262,57 @@ figcaption .bold {
   font-size: 1.5rem;
 }
 
+/* Meet the team */
+
+#meet-the-team {
+  background-color: #f2f2f2;
+}
+
+#meet-the-team h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  padding: 1rem 0 2rem 1rem;
+}
+
+.team-gallery-first-row {
+  display: flex;
+  justify-content: center;
+}
+
+.team-gallery-second-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.team-gallery-first-row figure, .team-gallery-second-row figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-gallery-first-row img:nth-child(2n+1) {
+  padding: 0 2rem 0 2rem;
+}
+
+.team-gallery-second-row img:nth-child(2n+1) {
+  padding: 0 2rem 0 2rem;
+}
+
+.space {
+  padding-top: 1.3rem;
+}
+
 /*Our work carousel*/
 
 #our-work {
   height: auto;
+  margin-bottom: 12rem;
 }
 
 #our-work h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  padding: 0 0 2rem 1rem;
+  padding: 2rem 0 2rem 1rem;
 }
 
 .our-work-carousel img {
@@ -275,10 +321,14 @@ figcaption .bold {
 
 /* Testimonials styles */
 
+#testimonials {
+  padding-bottom: 2rem;
+}
+
 #testimonials h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  padding: 3rem 0 2rem 1rem;
+  padding: 1rem 0 2rem 1rem;
 }
 
 #testimonials img {
@@ -286,13 +336,14 @@ figcaption .bold {
   margin: 0 auto;
 }
 
-.slick-prev:before, .slick-next:before {
-    color: black !important;
-}
-
 /* Footer styles */
 
 footer {
   display: flex;
   justify-content: flex-end;
+  border-top: 1px #D3D3D3 solid;
+}
+
+footer img {
+  margin-top: 1rem;
 }
