@@ -54,7 +54,21 @@ nav a:visited {
   color: #000000;
 }
 
+.mobile {
+  display: none;
+}
+
 /* Dropdown menu */
+
+@media only screen and (max-width: 795px) {
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+}
 
 .dropdown {
   position: relative;
@@ -68,11 +82,22 @@ nav a:visited {
   position: absolute;
   min-width: 160px;
   z-index: 25;
-  margin-right: 2rem;
+  right: 0px;
+  text-align: right;
+  background-color: #f2f2f2;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown-content ul li {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.dropdown-content ul li:hover {
+  background-color: white;
+}
 }
 
 /* Header styles */
