@@ -33,6 +33,7 @@ nav {
   position: fixed;
   z-index: 5;
   background-color: white;
+  opacity: 0.95;
 }
 
 nav .image-container {
@@ -94,6 +95,10 @@ nav a:visited {
 
 .dropdown-content ul li:hover {
   background-color: white;
+}
+
+.nav-items a:link {
+  display: none;
 }
 }
 
@@ -163,7 +168,6 @@ header p {
 
 .header-button:hover {
   background-color: white;
-
 }
 
 .header-button p:hover {
@@ -181,6 +185,48 @@ header p {
 
 .header-button a:visited {
   color: white;
+}
+
+.mobile-header {
+  display: none;
+}
+
+/* Mobile header */
+
+@media only screen and (max-width: 480px) {
+
+.header, .header-carousel {
+  display: none;
+}
+
+.mobile-header {
+  display: block;
+}
+
+.mobile-header-styles {
+  text-align: center;
+  color: white;
+  background-image: url(../images/mobile-header-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-content-mobile {
+
+}
+
+.header-content-header-mobile {
+
+}
+
+.header-content-main-mobile {
+
+}
+
+.header-button-mobile {
+
+}
 }
 
 /* Subsection styles */
@@ -245,6 +291,20 @@ figcaption {
 
 figcaption .bold {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 795px) {
+  #subsection img {
+    display: none;
+  }
+
+  .left-content {
+    width: 100%;
+  }
+
+  .right-content {
+    display: none;
+  }
 }
 
 /* Services section*/
