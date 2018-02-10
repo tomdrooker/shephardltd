@@ -1,5 +1,5 @@
 $(document).ready(function(){
-      $('.your-class').slick({
+      $('.gallery-carousel').slick({
         dots: true,
         arrows: false,
       });
@@ -25,7 +25,7 @@ $(document).ready(function(){
                 arrows: true,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 1
               }
             },
             {
@@ -39,6 +39,21 @@ $(document).ready(function(){
             }
           ]
         });
+
+        $('.testimonials-carousel-tablet').slick({
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true,
+        });
+
+        $('.testimonials-carousel-mobile').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        });
+
 
         $(document).ready( function(){
 
