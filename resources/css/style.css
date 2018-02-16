@@ -524,6 +524,13 @@ figcaption .bold {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 550px) {
+
+  #our-work {
+    display: none;
+  }
+}
+
 /* Testimonials styles */
 
 #testimonials {
