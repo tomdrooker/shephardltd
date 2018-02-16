@@ -479,11 +479,13 @@ figcaption .bold {
 
 .team-gallery-first-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .team-gallery-second-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;
 }
