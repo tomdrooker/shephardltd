@@ -581,6 +581,7 @@ figcaption .bold {
 
   .testimonials-carousel-mobile {
     display: block;
+    width: 95%;
   }
 }
 
