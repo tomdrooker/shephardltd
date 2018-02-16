@@ -526,8 +526,9 @@ figcaption .bold {
 
 @media only screen and (max-width: 550px) {
 
-  #our-work {
-    display: none;
+  .our-work-carousel img {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
