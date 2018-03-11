@@ -16,7 +16,7 @@ html {
 
 #main-content {
   position: relative;
-  top: 8rem;
+  top: 8.2rem;
 }
 
 #page-contaier {
@@ -113,15 +113,15 @@ nav a:visited {
 }
 
 .first-header {
-  background-image: url("../images/test-header-image.jpg");
+  background-image: url("../images/header-images/blakelock-1.jpg");
 }
 
 .second-header {
-  background-image: url("../images/bathroom-stock-4.jpg");
+  background-image: url("../images/header-images/chisem-3.jpg");
 }
 
 .third-header {
-  background-image: url("../images/shower-stock.jpg");
+  background-image: url("../images/header-images/jasmine-bean.jpg");
 }
 
 .header-content {
@@ -206,7 +206,7 @@ header p {
 .mobile-header-styles {
   text-align: left;
   color: white;
-  background-image: url(../images/mobile-header-image.jpg);
+  background-image: url(../images/header-images/mobile-header-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
