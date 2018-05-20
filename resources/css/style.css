@@ -24,6 +24,11 @@ html {
   margin: 0 auto;
 }
 
+.call-to-action {
+  text-align: right;
+  margin-right: 3rem;
+}
+
 /* Nav styles */
 
 nav {
@@ -285,6 +290,7 @@ header p {
 
 .left-content h2 {
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   font-size: 2rem;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid #54AFFA;
@@ -362,6 +368,7 @@ figcaption .bold {
 .services-header h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+  font-weight: bold;
   padding: 0 0 2rem 1rem;
 }
 
@@ -395,6 +402,7 @@ figcaption .bold {
 .service-box h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
+  font-weight: 600;
   text-align: center;
   padding: 1rem 0 1rem 0;
 }
@@ -440,8 +448,12 @@ figcaption .bold {
     border: 3px solid #54AFFA;
   }
 
-  .mobile-services-icon i {
-    margin: 0 1rem;
+  .mobile-services-icon {
+    padding: 2rem 2rem;
+  }
+
+  .mobile-services-icon img {
+    width: 100%;
   }
 
   .service-description {
@@ -474,6 +486,7 @@ figcaption .bold {
 #meet-the-team h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+  font-weight: bold;
   padding: 1rem 0 2rem 1rem;
 }
 
@@ -517,6 +530,7 @@ figcaption .bold {
 #our-work h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+  font-weight: bold;
   padding: 2rem 0 2rem 1rem;
 }
 
@@ -541,6 +555,7 @@ figcaption .bold {
 #testimonials h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+  font-weight: bold;
   padding: 1rem 0 2rem 1rem;
 }
 
