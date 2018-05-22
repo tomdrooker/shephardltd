@@ -7,4 +7,7 @@ $("document").ready(function() {
   $(document).click( function(){
       $('.dropdown-content').hide();
   });
+
+  $(".column a").attr("data-fancybox", "gallery");
+
 });

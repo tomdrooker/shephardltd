@@ -126,9 +126,14 @@ nav a:visited {
   height: auto;
 }
 
+.column img:hover {
+  border: 3px solid #54AFFA;
+}
+
+
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
+    flex: 40%;
     max-width: 50%;
   }
 }
