@@ -3,15 +3,15 @@ $(document).ready(function(){
         dots: true,
         arrows: false,
       });
-    });
 
-    $(document).ready(function(){
+
+
           $('.header-carousel').slick({
             autoplay: true,
             arrows: false,
             autoplaySpeed: 5000
           });
-        });
+
 
         $('.testimonials-carousel').slick({
           centerMode: true,
@@ -67,3 +67,4 @@ $(document).ready(function(){
             });
 
         });
+});
